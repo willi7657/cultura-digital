@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Tienda</h1>
+
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">computadoras</p>
+                            <span class="precio-producto-carrito">$20000</span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://i.ebayimg.com/images/g/PbMAAOSwPmll-tjv/s-l1600.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>
+
+                    </h2>Computadora portátil Lenovo Yoga Chromebook C630 Intel i7-8550U 1,80 GHz 16 GB RAM 128 GB SSD
+					<p class="price">US $269.99</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i.ebayimg.com/images/g/tngAAOSwLeJlnYXX/s-l1600.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Computadora portátil HP 14" (256 GB SSD, Intel Core i5 11a generación, 8 GB) - plateada natural</h2>
+					<p class="price">US $339.99                    </p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i.ebayimg.com/images/g/I6oAAOSwMtZj6Wii/s-l1600.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Computadora portátil HP FHD 15,6" (256 GB SSD, Intel Core i5 11a generación, 2,40 GHz, 8 GB) - plateada</h2>
+					<p class="price">US $499.00</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i.ebayimg.com/images/g/nWUAAOSwc~RjRZc4/s-l1600.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Computadora portátil Lenovo 14" T450 i5-5300U 2,30 GHz 8 GB RAM 500 GB HDD Windows 10</h2>
+					<p class="price">$US $159.95</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://assets.sams.com.mx/image/upload/f_auto,q_auto:eco,w_350,c_scale,dpr_auto/mx/images/product-images/img_medium/980029380m.jpg"
+						alt="producto"
+					/>
+                </figure>
+				<div class="info-product">
+					<h2>Laptop HP Ryzen 3/8 GB RAM/256 GB SSD 14-dk1508la</h2>
+					<p class="price">$9,00136
+
+                    </p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://cdn.homedepot.com.mx/productos/214101/214101-d.jpg"
+						alt="producto"
+					/>
+                </figure>
+				<div class="info-product">
+					<h2>LENOVO IDEAPAD SLIM 3: I31305U, 8GB DDR5, 256GB SSD, 15.6 LED, UHD GRAPHICS, WIN 11 HOME.
+                    </h2>
+					<p class="price">$9,50900</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/9f1de480-eefa-4576-8fdf-0f53828b7804.3f112004fd2692c993feaa83bf6ffd1b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+						alt="producto"
+					/>
+                </figure>
+				<div class="info-product">
+					<h2>Laptop Gamer HP Victus GeForce RTX 3050 Core i5 13420H 8GB 512GB M.2 15.6" Ingles HP Victus16 15.6" 144Hz, Intel Core i5-13420H, 8GB RAM, 512GB SSD; NVIDIA GeForce RTX 3050; Azul
+                    </h2>
+					<p class="price">$$14,240.00</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/c921a591-fb21-4f06-a0e0-c8566e3e262c.cfce0ae4d29d1d1caa167d835a487c16.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+						alt="producto"
+					/>
+                </figure>
+				<div class="info-product">
+					<h2>Laptop Lenovo Ideapad Slim 3 Intel Core I3-1305u 13.a Generación, 8 Gb Ram, 256 Gb Ssd, 15.6 " Full Hd, Windows 11 Home 64 Bits, Teclado En Español Lenovo 15IRU8</h2>
+					<p class="price">$6,999.00</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00075976321861l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+						alt="producto"
+					/>
+                </figure>
+                    <div class="info-product">
+                        <h2>Laptop Lenovo Slim 3 Intel Core i3 Gen 12th 8GB RAM 512GB SSD</h2>
+                        <p class="price">$6,999.00
+                        </p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img
+                            src="descarga.jpeg"
+                            alt="producto"
+                        />
+				</figure>
+				<div class="info-product">
+					<h2>Laptop HP Victus Gaming , 15.6”, Intel Core i7-12700H , RTX 3050 Ti , 8GB , 512GB SSD , Windows 11
+                    </h2>
+					<p class="price">$28,999.00</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+        <img src="" alt="">
+
+        <script src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/f45d9cdd-d205-4cc6-ab99-18e3e0fd895b.c6af5fcd8ca1c476c632036a97b38ead.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"></script>
+	</body>
+</html>
